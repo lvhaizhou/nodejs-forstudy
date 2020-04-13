@@ -7,3 +7,5 @@
     * git remote add origin https://github.com/lvhaizhou/nodejs-forstudy.git
     * git remote -v
 * push到远程仓库：  git push -u origin master
+* 拉取远端origin/master 分支合并到当前分支：git pull origin master
+* 克隆一个项目： git clone xxxxxxx
