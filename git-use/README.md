@@ -1,3 +1,8 @@
+<!--
+ * @Author: Lvhz
+ * @Date: 2020-04-11 15:51:26
+ * @Descripttion: 
+ -->
 ## vscode中git使用流程  
 * git init : 在根目录下会创建一个 .git文件，注意该文件是隐藏的。
 * 在根目录创建 .gitignore 文件，输入 node_modules/
@@ -33,3 +38,20 @@
 ### 4、删除文件  
 * git rm test.txt
 * git commit -m "remove test.txt"
+
+
+
+<br>
+
+
+## 遇到的一些问题  
+
+今天用git获取项目的时候提示 git SSL certificate problem: unable to get local issuer certificate  
+这个问题是由于没有配置信任的服务器HTTPS验证。默认，cURL被设为不信任任何Cas，就是说，它不信任任何服务器验证。  
+
+<br>
+
+只需要执行下面命令就可以解决  
+```
+git config --global http.sslVerify false
+```
