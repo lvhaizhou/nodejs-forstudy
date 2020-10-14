@@ -11,13 +11,18 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
     "co-redis": "^2.1.1",
     "cookie": "^0.4.0",
+    "download-git-repo": "^3.0.2",
+    "iconv-lite": "^0.6.2",
     "js-cookie": "^2.2.1",
     "koa": "^2.11.0",
     "koa-redis": "^4.0.1",
     "koa-session": "^5.13.1",
     "mathjs": "^6.6.4",
-    "redis": "^3.0.2"
+    "ora": "^5.1.0",
+    "redis": "^3.0.2",
+    "request": "^2.88.2"
   }
 }
